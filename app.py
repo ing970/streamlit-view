@@ -50,8 +50,8 @@ st.dataframe(dataframe, use_container_width = True)
 st.table(dataframe) # 단순히 데이터를 조회할 때 사용한다.
 
 # 메트릭
-st.metric(label = "온도", value = "10℃", delta = "1.2℃")
-st.metric(label = "삼성전자", value = "61,000 원", delta = "-1,200 원")
+# st.metric(label = "온도", value = "10℃", delta = "1.2℃")
+# st.metric(label = "삼성전자", value = "61,000 원", delta = "-1,200 원")
 
 # 컬럼으로 영역을 나누어 표기한 경우
 col1, col2, col3, = st.columns(3)
