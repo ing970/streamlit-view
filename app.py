@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit
 import streamlit.components.v1 as components
 import pandas as pd
 import cv2
@@ -15,6 +15,7 @@ import webbrowser
 import mediapipe as mp
 import itertools
 
+st = streamlit()
 # 기울기 함수
 @st.cache_data
 def slopee(x1,y1,x2,y2):
